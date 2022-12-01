@@ -1,0 +1,32 @@
+// final and const keyword
+
+// if any value is fixed throughout the program is used final and const
+
+
+void main(){
+  //final keyword
+  
+  final cityName="hyderabad";
+  //city name ="Delhi"// it shows the error because it is initialized with final keyword
+  final String myName="nivas";
+  //const keyword
+  
+  const countryName =" India";
+  const int age =10;
+  //countryName ="canada";// it shows the error message
+  
+  /*
+   * difference between the final and const is
+   * final--it only allocate memory when the variable is used
+   *      -- no memory loss
+   * const-- at the compile time the memory is created
+  */
+  
+  // in case of classes
+  class Circle{
+    
+    final colour ="red";// it is a instance variable
+    sttic const radius=10;
+  }
+   
+}
