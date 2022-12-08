@@ -26,7 +26,7 @@ void main(){
   class Circle{
     
     final colour ="red";// it is a instance variable
-    sttic const radius=10;
+    static const radius=10;
   }
    
 }
