@@ -1,0 +1,34 @@
+void main(){
+  //ternary operator
+  //condition ?? exp1:exp2
+  // based on the condition if condition is true then it will execute the first expression 
+  //or if condition is false it will execute the secound expression
+  int a=10;
+  int b=20;
+  if(a<b){
+    print("a is smaller");
+  } else{
+    print("b is smaller");
+  }
+  // similar to the above expression we will get
+  a<b ? print("a is smaller") : print("b is smaller");
+  
+  int smallervalue;
+  if(a<b){
+    smallervalue=a;
+  }
+  else{
+    smallervalue=b;
+  }
+  print("smaller value is $smallervalue");
+  // for above expression we can use the below ternary operator
+  int smalervalue = a<b? a : b;
+  print("smaller value is $smalervalue");
+  
+  
+  //exp1 ?? exp2 --> if there is null then exp2 is printed
+  
+  String name="Nivas";
+  print(name ?? "guest user");// in this update it is not working because we cannot enter the null value in the string
+  
+}
