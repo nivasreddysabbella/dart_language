@@ -1,5 +1,5 @@
 void main() {
-  // use of do-while loop
+  // first condtion is checks then execute the block code for it.
   /*   var count =1;
   while (count<=10){
     print(count);
@@ -14,7 +14,7 @@ void main() {
   }while(count<=10);// ending need to have the colon
   */
   
-  
+  // first execute the block then checks the condition
   var count =1;
   do{
     if (count%2==0){
