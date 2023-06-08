@@ -1,0 +1,50 @@
+void main() {
+/* "return type" for function is optional it is hightly recommended to give return type
+ * 1. required parameters
+ * 2. optional parameters
+ *    a. positional optional parameters--> it is not working now.
+ *    b. named optional parameters
+ *    c. default value optional parameters
+ */
+//add(5,10,20);//function calling--> required parameters problem
+//cityNames("Hyderabad","kerala");--> not working after the update...
+//add(5,z:20,y: 10);--> not working after the update..
+  add(5,10);//default value optinal parameters..--> working fine.
+  
+}
+/*--> required parameter problem
+void add(int x,int y, int z){// this is the model of required parameters
+  var result =x+y+z;
+  print("the sum is $result");
+}
+
+//a. positional optinal parameters-->not working now.
+
+// [] inside parameters are optional
+// below example city3 is optional parameter
+void cityNames(String city1, String city2,[String city3]){
+  print("$city1 $city2");
+  print("$city3");
+}
+// need to work but not working after the update...
+
+//b. named optional parameters
+
+//we use this whenever we have more number of parameters
+//{} inside parameters are named parameters
+// we pass values to function using name of parameters
+
+
+void add(int x, {int y, int z}){
+  var result=x+y+z;
+  print("$result");
+}
+*/
+
+// default value optional parameters
+ 
+// it is same as named parameters but it has default value
+void add(int x,int y,{int z = 0}){
+  var result =x+y+z;
+  print("the sum is $result");//output is : the sum is 15
+}
