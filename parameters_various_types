@@ -9,7 +9,8 @@ void main() {
 //add(5,10,20);//function calling--> required parameters problem
 //cityNames("Hyderabad","kerala");--> not working after the update...
 //add(5,z:20,y: 10);--> not working after the update..
-  add(5,10);//default value optinal parameters..--> working fine.
+  add(5,10);//default value optional parameters..--> working fine.
+  add(5,10,z:50);//working fine if we want to change the optional parameters.
   
 }
 /*--> required parameter problem
